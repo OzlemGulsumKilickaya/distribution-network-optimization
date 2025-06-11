@@ -4,10 +4,15 @@ This project implements a multi-stage distribution network optimization model in
 📦 #Project Structure
 
 📁 data/
+
 ├── costs_fa.xlsx      # Transportation costs from factories to warehouses
+
 ├── costs_ac.xlsx      # Transportation costs from warehouses to customers
+
 ├── demand.xlsx        # Customer-specific product demand
+
 ├── products.xlsx      # Product details and identifiers
+
 ├── return.xlsx        # Return cost or data (if applicable)
 
 📓 Distribution_Optimization.ipynb  # Main modeling and analysis notebook
